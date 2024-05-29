@@ -39,7 +39,7 @@ margin-right: 1cm;}
 
 .container-fluid {
     margin: 0;
-    padding: 0;
+    padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #6b3df5;
 
@@ -287,6 +287,7 @@ footer{
 
 
 
+
 }
 
 .container-rodape{
@@ -333,9 +334,10 @@ footer{
 
 #copy{
 	color: #ffffff;
-	background-color: #6b3df5;
     font-size: 10pt;
     margin-right: 2cm;
+    margin-top: 1cm;
+    height: 5vh;
 }
 	
 
@@ -420,6 +422,7 @@ margin-right: 0px;
 footer{
     
     margin-top: 0cm;
+
 }
 
 
