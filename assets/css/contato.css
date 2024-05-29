@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+
+
+
+
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+
+
+   }
+
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+/* navbar */
+.navbar-expand-lg .navbar-collapse 
+{
+margin-left: 450px;
+margin-right: 300px;
+
+}
+.nav-item {
+margin-right: 1cm;}
+
+
+.nav-item a{
+    font-size: 13pt;
+    color: white;
+ 
+
+}
+
+
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #6b3df5;
+
+}
+.navbar-toggler:hover {
+    background-color: white;
+    border: none;
+
+}
+
+#acaoum a {
+    color: #6b3df5; 
+    text-decoration: none;
+}
+
+#acaoum  {
+    background-color: #ffffff;
+    color: #6b3df5;
+    border: none;
+    margin: 2px;
+    text-decoration: none;
+}
+
+
+#acaoum a:hover {
+color: black;
+
+}
+
+
+main h1{
+
+    color: #6b3df5;
+    text-align: center;
+    background-color: #ffffff;
+    font-family: "Nanum Myeongjo",  normal;
+    font-size: 40pt;
+    }
+
+/* vamos conversar */
+aside{color: #6b3df5;
+	font-size: 50px;}
+
+
+    main {
+	
+       
+        background-color: #f4f4f4;
+       
+        
+    
+    
+    }
+
+
+
+
+/* footer */
+footer{
+    background-color: #6b3df5;
+    box-shadow: 0px 0px 10px 0px   rgba(0, 0, 0, 0.9);
+    margin-top: 1cm;
+    text-align: center;
+
+
+
+
+}
+
+.container-rodape{
+    display: grid; 
+    grid-template-columns: auto auto auto ;
+    gap: 10px;
+    padding: 30px;
+}
+
+
+.container-rodape a{
+    text-decoration: none;
+	color: #ffffff
+
+}
+
+.container-rodape a:hover{
+    color: #191414;
+
+   
+
+}
+
+.nome a{ 
+	margin-right: 10px;
+}
+
+.rodapes a{
+	margin-right: 8px;
+	cursor: pointer;
+	transition: transform 0.3s ease;
+}
+
+.rodapes i{
+	
+	cursor: pointer;
+	transition: transform 0.3s ease;
+}
+
+.rodapes i:hover{
+	transform: translateY(-5px); /* Subir 5 pixels quando o mouse passar por cima */
+	
+}
+
+#copy{
+	color: #ffffff;
+	background-color: #6b3df5;
+    font-size: 10pt;
+    margin-right: 2cm;
+}
+	
+
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+  
+
+
+
+
+@media only screen and (max-width: 700px) {
+ body{
+    margin: 0;
+    padding: 0;
+ }
+
+ .navbar-expand-lg .navbar-collapse 
+{
+margin-left: 0px;
+margin-right: 0px;
+
+
+}
+
+
+
+
+
+
+footer{
+    
+    margin-top: 0cm;
+}
+
+
+#copy{
+      
+    margin-right: 0;
+}
+}
+
+
+
