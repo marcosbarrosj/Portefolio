@@ -257,6 +257,11 @@ margin-right: 0px;
 
 
 
+      .container-rodape{
+        grid-template-columns: none ;
+    
+    
+    }
 
 footer{
     
