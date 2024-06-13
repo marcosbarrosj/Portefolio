@@ -130,7 +130,7 @@ border: 1px solid #6b3df5 ;
 margin-bottom: 10px;
 }
 
-.submit input{
+.submit button{
 width: 30vw;
 height: 6vh;
 color: #ffffff;
@@ -139,7 +139,7 @@ border-radius: 3px;
 box-shadow: 0px 0px 10px 0px   rgba(255, 255, 255, 0.9);
 }
 
-.submit input:hover{
+.submit button:hover{
 color: #050505;
 }
 
