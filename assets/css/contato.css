@@ -104,16 +104,18 @@ background-color: #f4f4f4;
 
 .container{
 margin-bottom: 2cm;
+padding: 20px;
 }
 
 .Formulário-dados label{
 color: #050505;
 font-size: 15px;
+width: 50%;
 }
 
 .Formulário-dados input{
-width: 40vw;
-height: 5vh;
+width: 100%;
+height: 3vh;
 border-radius: 3px;
 margin-top: 10px;
 border: 1px solid #6b3df5 ;
